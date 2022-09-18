@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&display=swap");
 body {
   background-color: #003f7b;
+  font-family: "Sanchez", serif;
+}
+
+.page-header {
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 0.2em;
+  padding-top: 0.9em;
 }
 
 /*# sourceMappingURL=App.css.map */
