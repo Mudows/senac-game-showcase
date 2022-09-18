@@ -11,4 +11,11 @@ body {
   padding-top: 0.9em;
 }
 
+.page-content {
+  text-align: center;
+  color: #ffffff;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
 /*# sourceMappingURL=App.css.map */
