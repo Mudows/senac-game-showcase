@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../SASS/App.sass"],"names":[],"mappings":"AAAQ;AAOR;EACE,kBALK;EAML;;;AAEF;EACE,kBARM;EASN;EACA;EACA;;;AAEF;EACE;EACA,OAfM;EAgBN;EACA","file":"App.css"}
+{"version":3,"sourceRoot":"","sources":["../SASS/App.sass"],"names":[],"mappings":"AAAQ;AAOR;EACE,kBALK;EAML;;;AAEF;EACE,kBARM;EASN;EACA;EACA;;;AAEF;EAEE;EACA,OAhBM;EAiBN,aAHc;EAId,cAJc;;;AAMhB;EACE;EACA;EACA;EACA;;;AAEF;EACE;EACA;;AACA;EACE","file":"App.css"}

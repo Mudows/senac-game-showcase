@@ -1,4 +1,6 @@
 import React from 'react';
+import GameCard from './GameCard';
+import { gameList } from '../helper/games';
 
 export default function Content() {
   return (
@@ -11,6 +13,17 @@ export default function Content() {
         convallis, sed ultrices massa eleifend. Proin ut consectetur est. Nulla
         facilisi. Duis eu enim urna. Curabitur et ultrices leo.
       </p>
+      <div className="card-box">
+        {gameList.map((game) => (
+          <GameCard
+            gameImage={game.img}
+            gameLunk={game.url}
+            imgAlt={game.alt}
+            gameTitle={game.name}
+            gameDescription={game.description}
+          />
+        ))}
+      </div>
     </div>
   );
 }
