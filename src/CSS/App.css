@@ -4,17 +4,30 @@ body {
   font-family: "Sanchez", serif;
 }
 
+hr {
+  border: 1px solid #f6941d;
+}
+
 .page-header {
+  display: flex;
+  flex-direction: row;
   background-color: #ffffff;
   text-align: center;
-  padding-bottom: 0.2em;
-  padding-top: 0.9em;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+}
+.page-header div {
+  margin: auto;
+}
+.page-header div h3 {
+  color: #676767;
+  margin-top: 0;
 }
 
 .page-content {
   text-align: center;
   color: #ffffff;
-  margin: 5em 10em 5em 10em;
+  margin: 3em 10em 3em 10em;
 }
 
 .card-box {
@@ -37,12 +50,33 @@ body {
   font-size: 14pt;
   text-shadow: -2px 2px 1px #000000;
 }
-.game-cards hr {
-  border: 1px solid #f6941d;
-}
 
 .footer {
   color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 1.2em;
+  border-top: 4px solid #f6941d;
+}
+.footer img {
+  max-width: 100px;
+}
+.footer div {
+  margin: auto;
+}
+
+.social-btn-white, .social-btn-blue {
+  transition-duration: 0.4s;
+  font-size: 18pt;
+  margin: 0.5em;
+  color: #ffffff;
+}
+.social-btn-white:hover, .social-btn-blue:hover {
+  color: #f6941d;
+}
+
+.social-btn-blue {
+  color: #003f7b;
 }
 
 /*# sourceMappingURL=App.css.map */

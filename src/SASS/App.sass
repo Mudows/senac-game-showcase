@@ -9,15 +9,25 @@ body
   background-color: $blue
   font-family: 'Sanchez', serif
 
+hr
+  border: 1px solid $orange
+
 .page-header
+  display: flex
+  flex-direction: row
   background-color: $white
   text-align: center
-  padding-bottom: 0.2em
-  padding-top: 0.9em
+  margin-bottom: 0.2em
+  margin-top: 0
+  div
+    margin: auto
+    h3
+      color: $gray
+      margin-top: 0
 
 .page-content
   $sideMargin: 10em
-  $tbMargin: 5em
+  $tbMargin: 3em
   text-align: center
   color: $white
   margin: $tbMargin $sideMargin $tbMargin $sideMargin
@@ -38,8 +48,26 @@ body
   a + p
     font-size: 14pt
     text-shadow: -2px 2px 1px #000000
-  hr
-    border: 1px solid $orange
 
 .footer
   color: $white
+  display: flex
+  flex-direction: row
+  padding: 1.2em
+  border-top: 4px solid $orange
+  img
+    max-width: 100px
+  div
+    margin: auto
+
+.social-btn-white
+  transition-duration: 0.4s
+  font-size: 18pt
+  margin: 0.5em
+  color: $white
+  &:hover
+    color: $orange
+
+.social-btn-blue
+  @extend .social-btn-white
+  color: $blue
