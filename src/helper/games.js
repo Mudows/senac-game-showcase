@@ -1,5 +1,6 @@
 import hotpink from '../img/hotpink-strikes.png'
 import pDeeper from '../img/project-deeper.png'
+import mouseEscape from '../img/mouseEscape.png'
 
 export const gameList = [
   {
@@ -17,10 +18,10 @@ export const gameList = [
     description: "Percorra três labirintos repletos de armadilhas na escuridão, e procure as luzes para sua salvação."
   },
   {
-    name: "Tank Wars",
-    img: hotpink,
-    url: "#",
-    alt: "Tank Wars",
-    description: "Uma arena de tanques, e apenas um pode sair funcionando. Destrua seus inimigos e clame a sua vitória!"
+    name: "Mouse Escape",
+    img: mouseEscape,
+    url: "https://fergusdragon.itch.io/mousescape",
+    alt: "Mouse Escape",
+    description: "Pulando pelas prateleiras do laboratório, você deve fugir sem ser capturado por ratoeiras e sem morrer para os espinhos ate conseguir fugir por uma janela convenientemente deixada aberta."
   }
 ]
