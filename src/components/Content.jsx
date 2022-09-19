@@ -6,18 +6,16 @@ export default function Content() {
   return (
     <div className="page-content">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia
-        pharetra neque, ut blandit sapien laoreet quis. Integer et tincidunt
-        eros. Nam dolor odio, aliquet ac urna vitae, lobortis sagittis eros. Sed
-        imperdiet sit amet est a molestie. Nunc consequat neque sed mauris
-        convallis, sed ultrices massa eleifend. Proin ut consectetur est. Nulla
-        facilisi. Duis eu enim urna. Curabitur et ultrices leo.
+        Este curso foi desenvolvido para quem deseja aprender a criar games e
+        entrar num dos maiores, mais rentáveis e promissores mercados no Brasil
+        e no mundo. Não precisa ter conhecimento prévio. O curso completo
+        garante uma formação robusta onde os alunos criam seus primeiros jogos.
       </p>
       <div className="card-box">
         {gameList.map((game) => (
           <GameCard
             gameImage={game.img}
-            gameLunk={game.url}
+            gameLink={game.url}
             imgAlt={game.alt}
             gameTitle={game.name}
             gameDescription={game.description}

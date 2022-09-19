@@ -7,6 +7,7 @@ export default function GameCard(props) {
         <img src={props.gameImage} alt={props.imgAlt} />
       </a>
       <p>{props.gameTitle}</p>
+      <hr />
       <p>{props.gameDescription}</p>
     </div>
   );

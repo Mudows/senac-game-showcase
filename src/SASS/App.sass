@@ -16,20 +16,27 @@ body
   padding-top: 0.9em
 
 .page-content
-  $sidePadding: 10em
+  $sideMargin: 10em
+  $tbMargin: 5em
   text-align: center
   color: $white
-  margin-left: $sidePadding
-  margin-right: $sidePadding
+  margin: $tbMargin $sideMargin $tbMargin $sideMargin
 
 .card-box
   display: flex
   flex-direction: row
   margin-left: auto
   margin-right: auto
+  margin-top: 5em
 
 .game-cards
   max-width: 15em
-  margin: auto
+  margin-left: auto
+  margin-right: auto
   img
     max-width: 15em
+  a + p
+    font-size: 14pt
+    text-shadow: -2px 2px 1px #000000
+  hr
+    border: 1px solid $orange

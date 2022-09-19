@@ -1,4 +1,5 @@
 import hotpink from '../img/hotpink-strikes.png'
+import pDeeper from '../img/project-deeper.png'
 
 export const gameList = [
   {
@@ -6,18 +7,20 @@ export const gameList = [
     img: hotpink,
     url: "https://www.construct.net/en/free-online-games/hotpink-strikes-11272/6a5905b2-2da8-4fd3-891d-6f0e9b87c37d",
     alt: "Hotpink Strikes!",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia pharetra neque, ut blandit sapien laoreet quis. Integer et tincidunt eros."
+    description: "Roube o quanto puder antes do tempo acabar! Neste jogo de plataforma, pegue o máximo de dinheiro antes que a polícia chegue para te prender."
   },
   {
-    name: "Hotpink Strikes 2",
-    img: hotpink,
-    alt: "Hotpink Strikes 2!",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia pharetra neque, ut blandit sapien laoreet quis. Integer et tincidunt eros."
+    name: "Project Deeper",
+    img: pDeeper,
+    url: "https://dark-spots-game-studio.itch.io/project-deeper",
+    alt: "Project Deeper",
+    description: "Percorra três labirintos repletos de armadilhas na escuridão, e procure as luzes para sua salvação."
   },
   {
-    name: "Hotpink Strikes 3",
+    name: "Tank Wars",
     img: hotpink,
-    alt: "Hotpink Strikes 3!",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia pharetra neque, ut blandit sapien laoreet quis. Integer et tincidunt eros."
+    url: "#",
+    alt: "Tank Wars",
+    description: "Uma arena de tanques, e apenas um pode sair funcionando. Destrua seus inimigos e clame a sua vitória!"
   }
 ]
