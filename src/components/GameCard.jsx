@@ -9,6 +9,7 @@ export default function GameCard(props) {
       <p>{props.gameTitle}</p>
       <hr />
       <p>{props.gameDescription}</p>
+      <br />
       <a
         className="game-btn"
         href={props.gameLink}

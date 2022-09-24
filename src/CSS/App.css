@@ -66,6 +66,8 @@ hr {
   border-radius: 25px;
   text-decoration: none;
   color: #ffffff;
+  padding-left: 4.5em;
+  padding-right: 4.5em;
 }
 
 .footer {
